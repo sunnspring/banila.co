@@ -1,0 +1,111 @@
+@charset"uft-8";
+
+/*헤더*/
+#header{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.top_bar{
+    padding: 0 50px;
+}
+
+.util{
+    position: absolute;
+    top: 0;
+    right: 50px;
+    font-size: 13px;
+}
+.util li{
+    float: left;
+    margin-left: 30px;
+    
+}
+.util li a{
+    display: block;
+    height: 100%;
+}
+
+.util li:last-child{
+    position: relative;
+}
+
+#search_bar{
+    width: 150px;
+    border-style: none;
+    border-bottom: 1px solid #c1c1c1;
+    outline: none;
+}
+
+.util img{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    width: 17px;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 50px;
+}
+.logo a{}
+.logo a img{
+    width: 130px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.menu_bar{font-size: 15px;}
+.menu_bar li{
+    display: inline-block;
+    margin: 0 50px;
+}
+.menu_bar li a{}
+
+/*푸터*/
+#footer{}
+
+.f_top{
+    color: #f1c5c8;
+    line-height: 45px;
+    padding: 50px 0;
+}
+.f_top h6{
+    font-size: 40px;
+    font-weight: 6600;
+}
+.f_top h5{
+    font-size: 50px;
+    font-weight: 200;
+}
+.f_top p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.top_l{float: left;}
+.top_r{
+    text-align: right;
+    float: right;
+}
+
+.f_bottom{font-size: 13px;}
+.f_bottom ul{
+    text-align: center;
+    margin: 30px 0;
+}
+.f_bottom li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.f_bottom li a{color: #c1c1c1;}
+
+.f_info{
+    text-align: center;
+    color: #c1c1c1;
+}
+.f_info .copy{margin: 10px 0;}

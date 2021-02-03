@@ -1,0 +1,43 @@
+@charset"uft-8";
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{margin: 0;}
+
+body{
+	min-width: 1200px;
+	font-family:"NotoSans",sans-serif;
+	color: #222;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: #5F6368;
+}
+
+.inner{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.cf::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*input x버튼 없애기*/
+input::-ms-clear,
+input::-ms-reveal{
+	display:none;width:0;height:0;
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration{
+	display:none;
+}
